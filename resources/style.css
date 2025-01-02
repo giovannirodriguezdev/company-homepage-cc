@@ -4,5 +4,31 @@ html {
 
 header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    font-size: 1.25rem;
 }
+
+header .main-nav {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header img {
+    width: 250px;
+}
+
+header .nav-extra {
+    display: flex;
+    align-items: center;
+}
+
